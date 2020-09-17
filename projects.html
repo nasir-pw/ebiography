@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html id="projects-html-tag" lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="img/nfavicon.png">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projects Work</title>
+  </head>
+  <body id="projects-body-tag">
+
+      <!--Navigation Start-->
+      <div class="nav-wrapper">
+        <div class="row">
+          <nav class="col-12 navbar">
+            <!--Hamburger Start-->
+            <div class="navbar-toggler" data-toggle="collapse" data-target="#navId" id="wrapper">
+              <div class="circle bars">
+                <span class="line top"></span>
+                <span class="line middle"></span>
+                <span class="line bottom"></span>
+              </div>
+            </div>
+            <!--Hamburger End-->
+            <div class="collapse navbar-collapse" id="navId">
+                <ul class="navbar-nav">
+                  <li class="nav-item align-self-start active"><a class="nav-link" href="index.html"><div class="navlist"><div class="icon"><i class="fa fa-home fa-fw"></i></div><span class="pl-2">Home</span></div></a></li>
+                  <li class="nav-item align-self-start"><a class="nav-link" href="about.html"><div class="navlist"><div class="icon"><i class="fa fa-user fa-fw"></i></div><span class="pl-2">About</span></div></a></li>
+                  <li class="nav-item align-self-start"><a class="nav-link" href="projects.html"><div class="navlist"><div class="icon"><i class="fa fa-briefcase fa-fw"></div></i><span class="pl-2">Projects</span></div></a></li>
+                  <li class="nav-item align-self-start"><a class="nav-link" href="contact.html"><div class="navlist"><div class="icon"><i class="fa fa-address-card fa-fw"></div></i><span class="pl-2">Contact</span></div></a></li>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--Navigation End-->
+
+      <!--Main content start-->
+      <main>
+        <div class="projects-wrapper">
+          <div class="container">
+            <div class="projects-header py-5">
+              <h2 class="display-4">Projects <span>Work</span></h2>
+              <p class="lead">To improve skills, I completed some project based work.</p>
+            </div>
+            <div class="projects-details">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 pb-5">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5>Single Page Website</h5>
+                    </div>
+                    <div class="card-footer">
+                      <a class="btn btn-warning btn-block" href="#">Live Demo</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 pb-5">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5>Single Page Website</h5>
+                    </div>
+                    <div class="card-footer">
+                      <a class="btn btn-warning btn-block" href="#">Live Demo</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 pb-5">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5>Multiple Page Website</h5>
+                    </div>
+                    <div class="card-footer">
+                      <a class="btn btn-warning btn-block" href="#">Live Demo</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 pb-5">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5>Single Page Website</h5>
+                    </div>
+                    <div class="card-footer">
+                      <a class="btn btn-warning btn-block" href="#">Live Demo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!--Container->
+        </div>
+      </main>
+      <!--Main content end-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+  <script type="text/javascript">
+    //Humbarger icon
+    $('#wrapper').click(function(){
+        $('.bars').toggleClass('close');
+      });
+    //Navbar Hide on click on page body
+    $(document).click(
+        function (event) {
+            var target = $(event.target);
+            var _mobileMenuOpen = $(".navbar-collapse").hasClass("show");
+            if (_mobileMenuOpen === true && !target.hasClass("navbar-toggler")) {
+                $("div.navbar-toggler").click();
+            }
+        }
+    );
+
+
+  </script>
+
+</html>

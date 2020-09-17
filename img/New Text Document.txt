@@ -1,0 +1,62 @@
+              <div class="about-me">
+                <table class="table table-borderless text-light mytable">
+                  <tr>
+                    <td class="title">Name</td>
+                    <td class="content">Md. Nasir Uddin</td>
+                    <td class="title">Father's Name</td>
+                    <td class="content">Md. Yeasin Ali</td>
+                  </tr>
+                  <tr>
+                    <td class="title">Date of Birth</td>
+                    <td class="content">7<sup>th</sup> Jan 1993</td>
+                    <td class="title">Gender</td>
+                    <td class="content">Male</td>
+                  </tr>
+                  <tr>
+                    <td class="title">Religion</td>
+                    <td class="content">Islam</td>
+                    <td class="title">Nationality</td>
+                    <td class="content">Bangladeshi</td>
+                  </tr>
+
+                  <tr>
+                    <td class="title">Email</td>
+                    <td class="content">nasircse13th@gmail.com</td>
+                    <td class="title">Phone</td>
+                    <td class="content">+88 01743128802</td>
+                  </tr>
+                  <tr>
+                    <td class="title">Language</td>
+                    <td class="content">Bangla, English, Hindi</td>
+                    <td class="title">Address</td>
+                    <td class="content">Gazipur, Bangladesh</td>
+                  </tr>
+                </table>
+              </div>
+
+
+
+.about-me{
+  display: flex;
+  height: 100%;
+  .mytable{
+    margin: auto;
+    vertical-align: middle;
+    tr{
+      line-height: 20px;
+      .title{
+
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        color: gray;
+      }
+      .content{
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400px;
+        color: #fff;
+
+      }
+    }
+  }
+}
