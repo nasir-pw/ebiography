@@ -129,7 +129,8 @@ body {
       font-weight: bold; }
     .index-wrapper .banner-area p {
       font-family: serif;
-      line-height: 24px;
+      line-height: 20px;
+      text-align: justify;
       color: #fff; }
     .index-wrapper .banner-area a {
       border-radius: 25px;
